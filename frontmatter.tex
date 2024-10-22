@@ -1,19 +1,38 @@
 \frontmatter
 \pagestyle{empty}
 
+% cover
+\tikz[remember picture,overlay]
+    \node[opacity=1.0,inner sep=0pt] at (current page.center){
+        \includegraphics[width=\paperwidth,height=\paperheight]{cover.jpg}
+    };
+\definecolor{shadecolor}{gray}{0.9}
+\vfill
+\begin{shaded}
+    \begin{center}
+        \HUGE\textsf{\thetitle}
+    \end{center}
+
+    \begin{center}
+        \LARGE\textsf{\theauthor}
+    \end{center}
+\end{shaded}
+
+\cleardoublepage
+
 % half-title page
 \begin{center}
-\HUGE\textsf{The Archer's Revenge}
+\HUGE\textsf{\thetitle}
 \end{center}
 \cleardoublepage
 
 % title page
 \begin{center}
-\HUGE\textsf{The Archer's Revenge}\par
+\HUGE\textsf{\thetitle}
 \end{center}
 
 \begin{center}
-\LARGE\textsf{Destination Infinity}\par
+\LARGE\textsf{\theauthor}
 \end{center}
 \clearpage
 
@@ -25,9 +44,10 @@
 
 \textcopyright{} 2024 Destination Infinity / Rajesh Kollu
 
-All rights reserved. No part of this book can be copied or reproduced anywhere without the written
-consent of the author. This is a work of fiction. All events in this story are
-purely imaginary and resemblance to anyone dead/alive is sheer coincidence.
+All rights reserved. No part of this book can be copied or reproduced anywhere
+without the written consent of the author. This is a work of fiction. All events
+in this story are purely imaginary and resemblance to anyone dead/alive is sheer
+coincidence.
 
 \endgroup
 \clearpage

@@ -3,19 +3,27 @@
 \title{The Archer's Revenge}
 \author{Destination Infinity}
 
+\chapterstyle{dash}
 \isopage[15]
 \checkandfixthelayout 
-
-\chapterstyle{dash}
-\pagestyle{plain}
 
 \usepackage{tikz}
 \usepackage{framed}
 
 \begin{document}
 
+\pagestyle{empty}
+
+% cover
+\include{frontcover}
+
+% frontmatter
+\frontmatter
 \include{frontmatter}
 
+\pagestyle{plain}
+
+% mainmatter
 \mainmatter
 \include{chapters/chapter01}
 \include{chapters/chapter02}
@@ -48,7 +56,11 @@
 \include{chapters/chapter29}
 \include{chapters/chapter30}
 
+\pagestyle{empty}
+
 \backmatter
 \include{backmatter}
+
+\include{backcover}
 
 \end{document}

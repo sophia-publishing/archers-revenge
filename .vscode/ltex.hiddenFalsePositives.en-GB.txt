@@ -1,2 +1,12 @@
-{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QArchers were central to the planning of any war.\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q.\\E$"}
+{"rule":"DID_FOUND_AMBIGUOUS","sentence":"^\\QHe said, “Why do you think I will thrust anything upon you?\\E$"}
+{"rule":"APARTMENT-FLAT","sentence":"^\\QHis apartment at New Delhi had been locked over the last couple of months and the neighbors hadn't seen him around during that time.\\E$"}
+{"rule":"ANY_BODY","sentence":"^\\QThere was no body, no blood, no other clue that could lead to the suspects.\\E$"}
+{"rule":"LITTLE_BIT","sentence":"^\\QThat's why it pays to know your history and think a little bit out of the box.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QAryan picked up a second-hand motorcycle that he found in an online classifieds website, after paying the requisite amount that was already agreed upon with its owner via email.\\E$"}
+{"rule":"COLLECTIVE_NOUN_VERB_AGREEMENT_VBP","sentence":"^\\QI organized a party for some VIPs in the city, but I was forced to cancel the party as a flurry of arrows fell from the sky.\\E$"}
+{"rule":"A_UNCOUNTABLE","sentence":"^\\QI am sure this is going to be a hot news in the entire VIP circle of this city.\\E$"}
+{"rule":"IN_THE_MEAN_TIME_PHRASE","sentence":"^\\QIn the mean time, Aryan went and stood in front of the ATM in the neighboring building.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QThey walked on the main road towards the empty Government building.\\E$"}
+{"rule":"FIRST_OF_ALL","sentence":"^\\Q“First of all, why should they interfere with our life?\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\Q“We installed a few wireless day/night IP Surveillance cameras on the trees around the U-Turn.\\E$"}

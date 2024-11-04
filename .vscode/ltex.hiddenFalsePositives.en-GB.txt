@@ -10,3 +10,4 @@
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QThey walked on the main road towards the empty Government building.\\E$"}
 {"rule":"FIRST_OF_ALL","sentence":"^\\Q“First of all, why should they interfere with our life?\\E$"}
 {"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\Q“We installed a few wireless day/night IP Surveillance cameras on the trees around the U-Turn.\\E$"}
+{"rule":"MUCH_COUNTABLE","sentence":"^\\QHe stocked as much supplies as possible and tried his best to reduce the reliance on the outside world - he didn't want to attract unnecessary attention coming into and walking out of the forest regularly.\\E$"}

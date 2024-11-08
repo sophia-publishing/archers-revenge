@@ -1,4 +1,4 @@
-* capitals for job titles: Inspector, Minister, Police, Traffic
+* capitals for job titles: Minister
 * department vs ministry
+* Tirupati is not a Police commissionerate
 * usage of /
-* Three stars *** chapter 24

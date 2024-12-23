@@ -13,3 +13,4 @@
 {"rule":"MUCH_COUNTABLE","sentence":"^\\QHe stocked as much supplies as possible and tried his best to reduce the reliance on the outside world - he didn't want to attract unnecessary attention coming into and walking out of the forest regularly.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QGuru made sure the arrangements were grand and the crowd was huge.\\E$"}
 {"rule":"FIRST_OF_ALL","sentence":"^\\Q“First of all, why should they interfere with our lives?\\E$"}
+{"rule":"VERB_NOUN_CONFUSION","sentence":"^\\QHis contacts and well-wishers indicated to him that even though the old minister, Guru, was no longer in charge, his hold over important executives of the department, was still very strong.\\E$"}

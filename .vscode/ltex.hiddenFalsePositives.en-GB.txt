@@ -14,3 +14,6 @@
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QGuru made sure the arrangements were grand and the crowd was huge.\\E$"}
 {"rule":"FIRST_OF_ALL","sentence":"^\\Q“First of all, why should they interfere with our lives?\\E$"}
 {"rule":"VERB_NOUN_CONFUSION","sentence":"^\\QHis contacts and well-wishers indicated to him that even though the old minister, Guru, was no longer in charge, his hold over important executives of the department, was still very strong.\\E$"}
+{"rule":"QUESTION_MARK","sentence":"^\\QHad you killed him there, there would have been no other option, but to arrest you.\\E$"}
+{"rule":"QUESTION_MARK","sentence":"^\\QHad you killed him there, there would have been no other option but to arrest you.\\E$"}
+{"rule":"NON_STANDARD_WORD","sentence":"^\\Q:D\\E$"}

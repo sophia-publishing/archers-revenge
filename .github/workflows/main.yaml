@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pdf-output
-          path: "*.pdf"
+          path: "book.pdf"
           retention-days: 21
       - name: move pdf
         run: mkdir -p build && mv book.pdf build/.

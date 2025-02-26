@@ -28,13 +28,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Run pdflatex
-        run: "pdflatex book.tex"
+      - name: Make the script files executable
+        run: chmod +x build.sh
+      - name: Run build.sh
+        run: ./build.sh
       - name: Archive .pdf
         uses: actions/upload-artifact@v4
         with:
           name: pdf-output
-          path: "book.pdf"
+          path: "book.pdf bookcover.pdf"
           retention-days: 21
       - name: move pdf
         run: mkdir -p build && mv book.pdf build/.

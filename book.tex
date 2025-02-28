@@ -18,11 +18,10 @@
 \usepackage{multirow}
 \usepackage{fontawesome5}
 
+\input{logo/logo}
 \newcommand\foreign[1]{\emph{#1}}
 
 \begin{document}
-
-\include{logo/logo}
 
 \pagestyle{empty}
 
@@ -31,6 +30,7 @@
 \include{frontmatter}
 
 \pagestyle{plain}
+\aliaspagestyle{chapter}{empty}
 
 % mainmatter
 \mainmatter

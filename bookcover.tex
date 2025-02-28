@@ -8,32 +8,16 @@
 \usepackage{ebgaramond-maths}
 \usepackage{microtype}
 
-\begin{document}
+\input{logo/logo}
 
-\include{logo/logo}
+\begin{document}
 
 \begin{bookcover}
     \bookcovercomponent{normal}{front}{
-        \centering
-        \vfill
-        {\Huge The Archer's Revenge}
-        \vfill
-        \includegraphics[width=0.5\partwidth]{frontcover-bw-image.pdf}
-        \vfill
-        {\Large Destination Infinity}
-        \vfill
+        \input{cover/frontcover}
     }
     \bookcovercomponent{normal}{back}[5mm,,5mm,]{
-        \setlength{\parskip}{1ex}
-        \vfill
-
-        \input{README}
-        \vfill
-
-        \begin{center}
-        \sophia
-        %     \includegraphics[width=18pt]{logo.pdf}
-        \end{center}
+        \include{cover/backcover}
     }
 \end{bookcover}
 \end{document}

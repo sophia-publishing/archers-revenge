@@ -8,12 +8,12 @@ build:
 build/pdf_output/book.pdf: book.tex | build
 	pdflatex -output-directory=build/output $<
 	pdflatex -output-directory=build/output $<
-	mv build/output/book.pdf $@
+	cp build/output/book.pdf $@
 
 build/pdf_output/bookcover.pdf: bookcover.tex | build
 	pdflatex -output-directory=build/output $<
 	pdflatex -output-directory=build/output $<
-	mv build/output/bookcover.pdf $@
+	cp build/output/bookcover.pdf $@
 
 build/pdf_output/book-cover-for-web.jpg: build/pdf_output/book.pdf
 	pdftoppm $< build/pdf_output/book-cover-for-web -jpeg -f 1 -l 1 -singlefile

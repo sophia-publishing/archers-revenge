@@ -28,26 +28,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Make the script files executable
-        run: chmod +x build.sh
-      - name: Run build.sh
-        run: ./build.sh
-      - name: Archive .pdf
+      - name: build project
+        run: make
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: pdf-output
-          path: |
-            book.pdf
-            bookcover.pdf
+          path: build/pdf_output/*
           retention-days: 21
-      - name: move pdf
-        run: mkdir -p build && mv book.pdf bookcover.pdf build/.
       - uses: crazy-max/ghaction-github-pages@v4
         # only publish pdf from main branch
         if: github.ref == 'refs/heads/main'
         with:
           target_branch: pdf-output
-          build_dir: build
+          build_dir: build/pdf_output
           commit_message: Publish PDF Output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

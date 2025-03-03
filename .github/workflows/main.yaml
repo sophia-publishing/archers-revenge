@@ -27,7 +27,7 @@ jobs:
       image: registry.gitlab.com/islandoftex/images/texlive:latest
     steps:
       - name: Install pdftoppm
-        run: sudo apt install -y poppler-utils
+        run: sudo apt-get install -y poppler-utils
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: build project

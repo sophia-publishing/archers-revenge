@@ -26,9 +26,8 @@ jobs:
     container:
       image: registry.gitlab.com/islandoftex/images/texlive:latest
     steps:
-      - uses: ConorMacBride/install-package@v1
-        with:
-          apt: poppler-utils
+      - name: Install pdftoppm
+        run: apt-get update && apt-get install -y poppler-utils
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: build project

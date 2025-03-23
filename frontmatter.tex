@@ -1,5 +1,10 @@
 % front cover
-\input{cover/frontcover.tex}
+{
+\begin{tikzpicture}[remember picture, overlay]
+      \node[anchor=center] at (current page.center){%
+        \includegraphics{frontcover-color.pdf}};
+\end{tikzpicture}
+}
 \cleardoublepage
 
 % half-title page
